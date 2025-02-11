@@ -1,4 +1,4 @@
-import 'package:first_start/screens/home_screen.dart';
+import 'package:first_start/screens/row_column.dart'; 
 import 'package:flutter/material.dart';
 
 class HelloWorld extends StatefulWidget {
@@ -13,7 +13,7 @@ class _HelloWorldState extends State<HelloWorld> {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Hello World',
-      home: HomeScreen()
+      home: RowColumn(), 
     );
   }
 }
