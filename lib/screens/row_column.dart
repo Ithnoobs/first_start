@@ -19,6 +19,6 @@ class _RowColumnState extends State<RowColumn> {
           Expanded(child: Image.asset("assets/pic2.png")),
         ],
       )
-    )
+    );
   }
 }
