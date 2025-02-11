@@ -15,7 +15,7 @@ class _RowColumnState extends State<RowColumn> {
         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
         children: [
           Expanded(child: Image.asset("assets/crazybitch.png")),
-          Expanded(child: Image.asset("assets/pic1.png")),
+          Expanded(child: Image.asset("assets/pic1.jpg")),
           Expanded(child: Image.asset("assets/pic2.png")),
         ],
       )
