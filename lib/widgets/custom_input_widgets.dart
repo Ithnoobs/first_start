@@ -2,12 +2,12 @@ import 'package:flutter/material.dart';
 
 class CustomInputWidgets extends StatefulWidget {
   
-  String? labelText;
-  String? hintText;
-  IconData? prefixIcon;
-  TextEditingController? controller;
+  final String? labelText;
+  final String? hintText;
+  final IconData? prefixIcon;
+  final TextEditingController? controller;
 
-  CustomInputWidgets({super.key, this.labelText, this.hintText, this.prefixIcon, this.controller});
+  const CustomInputWidgets({super.key, this.labelText, this.hintText, this.prefixIcon, this.controller});
 
   @override
   State<CustomInputWidgets> createState() => _CustomInputWidgetsState();

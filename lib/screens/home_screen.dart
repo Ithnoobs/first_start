@@ -97,14 +97,12 @@ class _HomeScreenState extends State<HomeScreen> {
         },
         child: const Icon(Icons.star, color: Colors.yellow,),
       ),
-      body: Container(
-        child: Column(
-          children: [
-            Image.asset('assets/wallhaven_carlotta.png'),
-            Text('Hello World', style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),),
-            Text('Welcome to a simple app!', style: TextStyle(fontSize: 18),),
-          ]
-        ),
+      body: Column(
+        children: [
+          Image.asset('assets/wallhaven_carlotta.png'),
+          Text('Hello World', style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),),
+          Text('Welcome to a simple app!', style: TextStyle(fontSize: 18),),
+        ]
       )
     );
   }
